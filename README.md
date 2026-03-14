@@ -1,12 +1,30 @@
-# React + Vite
+# 📄 Invoice Generator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional invoice management application that allows you to create, edit, and track invoices effortlessly.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3-38bdf8?logo=tailwindcss)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 📝 Create professional invoices
+- ✏️ Edit and update invoice details
+- 🗑️ Delete invoices
+- 🔢 Automatic invoice numbering
+- 💰 Calculate totals and taxes automatically
+- 📊 Track payment status (pending/paid)
+- 🎨 Beautiful, responsive UI
+- 💾 Data persistence with LocalStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Demo
+
+[View Demo](https://your-demo-link.vercel.app)
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/BAMOR/invoice-generator-app.git
+cd invoice-generator-app
+npm install
+npm run dev
